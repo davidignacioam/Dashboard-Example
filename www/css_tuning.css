@@ -1,0 +1,56 @@
+
+
+/*     Error     */ 
+  
+.shiny-output-error-validation {
+  visibility: hidden; 
+}
+.shiny-output-error:before { 
+  visibility: hidden; 
+}
+.shiny-output-error { 
+  visibility: hidden; 
+}
+
+
+/*     Box     */ 
+
+.box-body {
+  margin: 1px;
+}
+.primary-box {
+  padding: 1px;
+}
+.info-box {
+  padding: 1px;
+  border-radius: 0px;
+  font-size: 13px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
+}
+.info-box:hover {
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 40%);
+}
+.box-primary {
+  padding: 1px;
+  border-radius: 0px;
+  font-size: 13px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
+}
+.box-primary:hover {
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 40%);
+}
+.box.box-solid.box-primary {
+  border-top: none; 
+  border-bottom: none; 
+  border-right: none; 
+  border-left: none; 
+}
+.box.box-solid.box-primary>.box-header {
+  color: #FFFFFF;
+  background: linear-gradient(35deg, #0084D6, #00C0EF);
+}
+.box.box-solid.box-success>.box-header {
+  color: #FFFFFF;
+  background: linear-gradient(35deg, #0084D6, #00C0EF);
+}
+
